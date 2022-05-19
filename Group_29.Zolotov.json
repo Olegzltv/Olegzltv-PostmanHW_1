@@ -117,32 +117,9 @@
 		},
 		{
 			"name": "EP_4",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "name",
-							"value": "Oleg",
-							"type": "text"
-						},
-						{
-							"key": "age",
-							"value": "30",
-							"type": "text"
-						},
-						{
-							"key": "salary",
-							"value": "500",
-							"type": "text"
-						}
-					]
-				},
 				"url": {
 					"raw": "http://162.55.220.72:5005/object_info_2?name=Oleg&age=30&salary=500",
 					"protocol": "http",
